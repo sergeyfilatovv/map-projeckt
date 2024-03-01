@@ -9,7 +9,7 @@ const data = [
     {
         title: 'Саратовский районный суд',
         subtitle: 'Суд',
-        img: '../img/app/court-img.jpg',
+        img: './img/app/court-img.jpg',
         desc: 'Суд',
         id:2
     },
