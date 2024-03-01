@@ -40,6 +40,13 @@ const data = [
         img: './img/app/admin-img.jpg',
         desc: 'Администрация',
         id:6
+    },
+    {
+        title: 'Дом культуры',
+        subtitle: 'ДК',
+        img: './img/app/social-cult-img.jpg',
+        desc: 'Дом культуры',
+        id:7
     }
 
 ]
