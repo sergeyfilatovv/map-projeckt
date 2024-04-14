@@ -1,0 +1,102 @@
+.button{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: absolute;
+    background-color: transparent;
+    -webkit-box-shadow: 1px 1px 11px 17px rgba(0, 32, 56, 0.1);
+    -moz-box-shadow: 1px 1px 11px 17px rgba(0, 32, 56, 0.1);
+    box-shadow: 1px 1px 11px 17px rgba(0, 32, 56, 0.2);
+    animation: pulsate 1s ease-out infinite;
+
+    &.button--church{
+        top: 493px;
+        left: 484px;
+    }
+
+    &.button--court{
+        top: 205px;
+        left: 575px;
+    }
+
+    &.button--kindergarten{
+        top: 189px;
+        left: 693px;
+    }
+
+    &.button--school{
+        top: 54px;
+        left: 783px;
+    }
+
+    &.button--monument{
+        top: 274px;
+        left: 1029px;
+    }
+
+    &.button--monument-dk{
+        top: 290px;
+        left: 1074px;
+    }
+
+    &.button--cultural-center{
+        top: 339px;
+        left: 1095px;
+    }
+
+    &.button--admin{
+        top: 261px;
+        left: 1135px;
+    }
+
+    &.button--social-cult{
+        top: 340px;
+        left: 1095px;
+    }
+
+    &.button--library{
+        top: 369px;
+        left: 879px;
+    }
+
+    &.button--park{
+        top: 406px;
+        left: 1045px;
+    }
+
+    &.button--garden{
+        top: 170px;
+        left: 900px;
+    }
+
+    &.button--close, &.button--next{
+       position: unset;
+       border-radius: 5px;
+       height: unset;
+       width: unset;
+       animation: unset;
+       box-shadow: unset;
+       border: 1px solid black;
+       padding: 10px 45px;
+       transition: all 0.05s ease-in;
+    }
+
+    &.button--close{
+        &:hover{
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            
+        }
+    }
+
+
+    
+}
+
+@-webkit-keyframes pulsate {
+    0%   { box-shadow: 0 0 0 black; }
+    50%  { box-shadow: 0 0 17px black; }
+    100% { box-shadow: 0 0 0 black; }
+}

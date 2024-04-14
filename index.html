@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Maps</title>
+</head>
+<body>
+    <section class="app">
+        <div class="container">
+            <div class="app__wrapper">
+                <img src="./img/app/map-home-img.png" alt="Карта" class="app__img">
+                <button id="1" class="button button--church"></button>
+                <button id="2" class="button button--court "></button>
+                <button id="3" class="button button--kindergarten"></button>
+                <button id="4" class="button button--school"></button>
+                <button id="5" class="button button--monument"></button>
+                <button id="6" class="button button--admin"></button>
+                <button id="7" class="button button--social-cult"></button>
+                <button id="8" class="button button--library"></button>
+                <button id="9" class="button button--park"></button>
+                <button id="10" class="button button--garden"></button>
+                <button id="11" class="button button--monument-dk"></button>
+            </div>
+            <div class="card__wrapper">
+                <!-- Сюда рендерится разметка карточек через js -->
+            </div>
+            <div id="overlay"></div>
+        </div>
+    </section>
+    <script src="./mvc/model.js" type="module"></script>
+    <script src="./mvc/view.js" type="module"></script>
+    <script src="./mvc/controller.js" type="module"></script>
+</body>
+</html>
